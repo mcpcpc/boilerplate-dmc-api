@@ -8,7 +8,7 @@ from flask import Flask
 from dash import Dash
 from dash import page_registry
 
-#from src.api.api import api
+from src.api.data import data
 from src.db import init_app
 from src.layout.default import layout
 
@@ -31,7 +31,7 @@ def create_app(test_config=None):
     except OSError:
         pass
     init_app(app)
-    #app.register_blueprint(api)
+    app.register_blueprint(data)
     dashapp = Dash(
         __name__,
         server=app,
