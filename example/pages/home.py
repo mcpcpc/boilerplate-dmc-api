@@ -7,7 +7,7 @@ from dash import register_page
 register_page(
     __name__,
     path="/",
-    title="Home | Template",
+    title="Home | Example",
     description="",
 )
 

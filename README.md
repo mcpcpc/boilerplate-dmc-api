@@ -1,4 +1,4 @@
-# Template
+# Example Boilerplate
 
 A DMC, Flask and API template.
 
@@ -9,7 +9,7 @@ A DMC, Flask and API template.
 Install and update using pip:
 
 ```shell
-pip install -U template
+pip install -U example
 ```
 
 ### Repository
@@ -17,7 +17,7 @@ pip install -U template
 When using git, clone the repository and change your present working directory.
 
 ```shell
-git clone http://github.com/johnsmith/template
+git clone http://github.com/johnsmith/example
 cd template/
 ```
 
@@ -42,7 +42,7 @@ The Sqlite3 database can be initialized or re-initialized with the
 following command.
 
 ```shell
-flask —app template init-db
+flask —app example init-db
 ```
 
 ## Deployment
@@ -69,7 +69,7 @@ Production WSGI via waitress.
 
 ```shell
 pip install waitress
-waitress-serve —call template:create_app
+waitress-serve —call example:create_app
 ```
 
 ## Test

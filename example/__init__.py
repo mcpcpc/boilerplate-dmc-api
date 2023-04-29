@@ -8,9 +8,9 @@ from flask import Flask
 from dash import Dash
 from dash import page_registry
 
-from src.api.data import data
-from src.db import init_app
-from src.layout.default import layout
+from example.api.data import data
+from example.db import init_app
+from example.layout.default import layout
 
 
 def create_app(test_config=None):
