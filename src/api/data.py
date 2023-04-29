@@ -19,7 +19,7 @@ def create_data():
     try:
         db = get_db()
         db.execute("PRAGMA foreign_keys = ON")
-        db.execute(
+        db.execute( # INSERT SQL command
             """
             """,
             form,
@@ -53,7 +53,7 @@ def update_data(id: int):
     try:
         db = get_db()
         db.execute("PRAGMA foreign_keys = ON")
-        db.execute(
+        db.execute( # UPDATE SQL command
             """
             """,
             form,
