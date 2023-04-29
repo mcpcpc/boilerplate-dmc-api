@@ -7,7 +7,6 @@ from flask import request
 
 from librehtf.db import get_db
 
-
 data = Blueprint("api", __name__, url_prefix="/data")
 
 
