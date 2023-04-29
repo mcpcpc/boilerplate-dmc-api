@@ -1,0 +1,5 @@
+include LICENSE
+include src/schema.sql
+graft src/api
+graft tests
+global-exclude *.pyc
