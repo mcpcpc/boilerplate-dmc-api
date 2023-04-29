@@ -1,5 +1,8 @@
 include LICENSE
 include src/schema.sql
 graft src/api
+graft src/assets
+graft src/layout
+graft stc/pages
 graft tests
 global-exclude *.pyc

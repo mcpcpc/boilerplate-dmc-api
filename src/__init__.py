@@ -8,6 +8,7 @@ from flask import Flask
 from dash import Dash
 from dash import page_registry
 
+#from src.api.api import api
 from src.db import init_app
 from src.layout.default import layout
 
