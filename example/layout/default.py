@@ -9,6 +9,8 @@ from dash import page_container
 from dash import State
 
 from dash_mantine_components import Container
+from dash_mantine_components import MantineProvider
+from dash_mantine_components import NotificationsProvider
 
 wrapper = Container(
     id="wrapper",
